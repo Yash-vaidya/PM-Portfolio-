@@ -14,10 +14,6 @@ const skillCategories = [
     category: 'Soft Skills',
     skills: ['Communication', 'Team Coordination', 'Problem Solving', 'Time Management', 'Stakeholder Management'],
   },
-  {
-    category: 'Learning & Goals',
-    skills: ['MBA Studies', 'Forage Programs', 'PMP Certification', 'Product Management'],
-  },
 ]
 
 const container = {

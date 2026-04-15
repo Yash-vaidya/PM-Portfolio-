@@ -53,6 +53,7 @@
 .about-card:hover {
   border-color: var(--color-accent);
   transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(34, 211, 238, 0.3);
 }
 
 .about-card-icon {
@@ -75,4 +76,14 @@
   .about-grid {
     grid-template-columns: 1fr;
   }
+}
+
+[data-theme="light"] .about-card {
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+[data-theme="light"] .about-card h3,
+[data-theme="light"] .about-card p {
+  color: #000000;
 }

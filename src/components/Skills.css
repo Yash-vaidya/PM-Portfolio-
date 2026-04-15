@@ -31,6 +31,7 @@
   border-color: var(--color-accent);
   color: var(--color-accent);
   transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(34, 211, 238, 0.3);
 }
 
 .skills-category {
@@ -48,4 +49,20 @@
   .skills {
     padding: 60px 20px;
   }
+}
+
+[data-theme="light"] .skill-tag {
+  background: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+[data-theme="light"] .skill-tag:hover {
+  background: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+
+[data-theme="light"] .skills-category h3 {
+  color: #000000;
 }

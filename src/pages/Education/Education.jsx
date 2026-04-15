@@ -6,7 +6,7 @@ const education = [
     degree: 'MBA (Business Administration)',
     school: 'Ongoing',
     year: '2025 - 2027',
-    description: 'Currently pursuing MBA to build strong business foundation. Planning to complete before applying for Forage and other programs.',
+    description: 'Currently pursuing MBA to build strong business foundation. Planning to complete it and apply for global certifications to work abroad.',
     status: 'In Progress',
   },
   {

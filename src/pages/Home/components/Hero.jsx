@@ -1,10 +1,37 @@
+import { useState, useEffect } from 'react'
 import './Hero.css'
+import lightModeImg from '../../../assets/lightmode.png'
 
 const name = "Vishavdip Vaidya"
 
 function Hero() {
+  const [theme, setTheme] = useState('dark')
+  const [key, setKey] = useState(0)
+  
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      const currentTheme = document.documentElement.getAttribute('data-theme')
+      if (currentTheme !== theme) {
+        setTheme(currentTheme || 'dark')
+        setKey(prev => prev + 1)
+      }
+    })
+    
+    observer.observe(document.documentElement, { 
+      attributes: true, 
+      attributeFilter: ['data-theme'] 
+    })
+    
+    return () => observer.disconnect()
+  }, [theme])
+  
   return (
-    <section className="hero" id="hero">
+    <section 
+      className="hero" 
+      id="hero" 
+      key={key}
+      style={{ '--light-bg': `url(${lightModeImg})` }}
+    >
       <div className="hero-content">
         <p className="greeting">Hello, I'm</p>
         <h1>
@@ -23,16 +50,8 @@ function Hero() {
         </p>
         <div className="hero-meta">
           <div className="meta-item">
-            <span className="meta-value">5</span>
-            <span className="meta-label">Apps Delivered</span>
-          </div>
-          <div className="meta-item">
             <span className="meta-value">22+</span>
             <span className="meta-label">Projects Managed</span>
-          </div>
-          <div className="meta-item">
-            <span className="meta-value">3</span>
-            <span className="meta-label">Medical Software</span>
           </div>
           <div className="meta-item">
             <span className="meta-value">2025</span>

@@ -26,6 +26,7 @@
 .education-card:hover {
   transform: translateY(-4px);
   border-color: var(--color-accent);
+  box-shadow: 0 10px 40px rgba(34, 211, 238, 0.3);
 }
 
 .edu-header {
@@ -77,4 +78,20 @@
   .education {
     padding: 60px 20px;
   }
+}
+
+[data-theme="light"] .education-card {
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+[data-theme="light"] .edu-degree,
+[data-theme="light"] .edu-school,
+[data-theme="light"] .edu-desc {
+  color: #000000;
+}
+
+[data-theme="light"] .education-status {
+  background: #000000;
+  color: #ffffff;
 }

@@ -15,7 +15,7 @@ const aboutCards = [
   {
     icon: '🎯',
     title: 'Future Vision',
-    description: 'Pursuing MBA while working — planning for Forage programs to build a strong professional foundation.',
+    description: 'Pursuing MBA while working — aiming for global certifications to work abroad.',
   },
 ]
 
@@ -48,7 +48,7 @@ function About() {
           I started as a MERN Stack Developer but discovered my true passion 
           in Project Coordination. My communication skills helped me transition 
           from a developer role to managing projects — a journey that continues 
-          as I pursue my MBA and aim for prestigious programs like Forage.
+          as I pursue my MBA and aim for global certifications to work abroad.
         </p>
       </motion.div>
       <motion.div

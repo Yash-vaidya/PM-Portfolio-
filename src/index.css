@@ -8,6 +8,35 @@
   --font-sans: 'Inter', system-ui, sans-serif;
 }
 
+[data-theme="light"] {
+  --color-bg: #f8f9fa;
+  --color-surface: #ffffff;
+  --color-border: #000000;
+  --color-text: #000000;
+  --color-text-bright: #000000;
+  --color-accent: #000000;
+}
+
+[data-theme="light"] .section-label,
+[data-theme="light"] .section-title {
+  color: #000000;
+}
+
+[data-theme="light"] .hero .section-label,
+[data-theme="light"] .hero .section-title,
+[data-theme="light"] .hero p,
+[data-theme="light"] .hero span,
+[data-theme="light"] .hero li,
+[data-theme="light"] .hero .meta-value,
+[data-theme="light"] .hero .meta-label {
+  color: #ffffff !important;
+  text-shadow: 
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +52,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 ::-webkit-scrollbar {

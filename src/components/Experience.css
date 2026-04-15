@@ -26,6 +26,7 @@
 .experience-card:hover {
   transform: translateY(-4px);
   border-color: var(--color-accent);
+  box-shadow: 0 10px 40px rgba(34, 211, 238, 0.3);
 }
 
 .exp-header {
@@ -84,4 +85,21 @@
   .experience {
     padding: 60px 20px;
   }
+}
+
+[data-theme="light"] .experience-card {
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+[data-theme="light"] .exp-role,
+[data-theme="light"] .exp-company,
+[data-theme="light"] .exp-desc {
+  color: #000000;
+}
+
+[data-theme="light"] .exp-highlights li {
+  background: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
 }

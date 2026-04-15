@@ -18,14 +18,14 @@ function ContactPage() {
           to be part of your vision. Feel free to reach out!
         </p>
         <div className="contact-cta">
-          <a href="mailto:abhishek@example.com" className="email-link">
-            abhishek@example.com
+          <a href="mailto:yashvaidya9623@gmail.com" className="email-link">
+            yashvaidya9623@gmail.com
           </a>
         </div>
         <div className="social-links">
-          <a href="#" className="social-link" title="LinkedIn">in</a>
-          <a href="#" className="social-link" title="GitHub">GH</a>
-          <a href="#" className="social-link" title="Twitter">X</a>
+          <a href="https://surl.li/yjpluq" target="_blank" rel="noopener noreferrer" className="social-link" title="LinkedIn">in</a>
+          <a href="https://github.com/Yash-vaidya" target="_blank" rel="noopener noreferrer" className="social-link" title="GitHub">GH</a>
+          <a href="https://instagram.com/the_yash_vaidya" target="_blank" rel="noopener noreferrer" className="social-link" title="Instagram">IG</a>
         </div>
       </motion.div>
     </section>
