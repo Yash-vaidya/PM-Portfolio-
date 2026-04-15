@@ -1,0 +1,87 @@
+.experience {
+  padding: 120px 24px 60px;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.experience-content {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.experience-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.experience-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 28px;
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.exp-role {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text-bright);
+}
+
+.exp-period {
+  font-size: 14px;
+  color: var(--color-accent);
+  background: rgba(34, 211, 238, 0.1);
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.exp-company {
+  font-size: 16px;
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+
+.exp-desc {
+  font-size: 15px;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.exp-highlights {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.exp-highlights li {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: var(--color-text);
+}
+
+@media (max-width: 640px) {
+  .experience {
+    padding: 60px 20px;
+  }
+}
