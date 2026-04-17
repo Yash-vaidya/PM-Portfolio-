@@ -85,6 +85,12 @@
   border: 1px solid #000000;
 }
 
+[data-theme="light"] .education-card:hover {
+  border-color: #fbbf24;
+  box-shadow: 0 10px 40px rgba(251, 191, 36, 0.4);
+  transform: translateY(-4px);
+}
+
 [data-theme="light"] .edu-degree,
 [data-theme="light"] .edu-school,
 [data-theme="light"] .edu-desc {

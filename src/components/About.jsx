@@ -4,18 +4,18 @@ import './About.css'
 const aboutCards = [
   {
     icon: '🚀',
-    title: 'Transition Journey',
-    description: 'From MERN Stack Developer to Project Coordinator — proving that communication and leadership matter more than just code.',
+    title: 'Project Leadership',
+    description: 'Started as MERN Stack Developer, transitioned to managing 20+ projects across .NET, MERN, and mobile technologies.',
   },
   {
     icon: '📊',
-    title: 'Project Management',
-    description: 'Managing 22+ projects, tracking progress, and reporting to stakeholders — learning the art of coordination.',
+    title: 'Project Portfolio',
+    description: 'Successfully delivered diverse projects including CRM software, location tracking systems, medical desktop apps, and AI platforms.',
   },
   {
     icon: '🎯',
-    title: 'Future Vision',
-    description: 'Pursuing MBA while working — aiming for global certifications to work abroad.',
+    title: 'Tech Stack',
+    description: 'Expertise in .NET, MERN Stack, Flutter for mobile, and desktop applications. Managing end-to-end project delivery.',
   },
 ]
 
@@ -45,10 +45,10 @@ function About() {
         <p className="section-label">About Me</p>
         <h2 className="section-title">From Developer to Coordinator</h2>
         <p className="section-desc">
-          I started as a MERN Stack Developer but discovered my true passion 
-          in Project Coordination. My communication skills helped me transition 
-          from a developer role to managing projects — a journey that continues 
-          as I pursue my MBA and aim for global certifications to work abroad.
+          I started as a MERN Stack Developer and have grown to manage a diverse portfolio of 20+ projects 
+          using .NET, MERN Stack, Flutter, and desktop technologies. From location tracking systems to 
+          CRM software, medical applications to AI platforms — I have delivered solutions across various 
+          domains while coordinating with teams and clients.
         </p>
       </motion.div>
       <motion.div

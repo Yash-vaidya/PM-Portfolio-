@@ -3,16 +3,24 @@ import './Skills.css'
 
 const skillCategories = [
   {
-    category: 'Technical Skills',
-    skills: ['MERN Stack', 'React', 'Node.js', 'MongoDB', 'Express', 'JavaScript', 'HTML/CSS'],
+    category: 'Frontend',
+    skills: ['React', 'MERN Stack', 'HTML/CSS', 'JavaScript', 'Responsive Design'],
+  },
+  {
+    category: 'Backend',
+    skills: ['.NET', 'Node.js', 'Express', 'MongoDB', 'Database Management'],
+  },
+  {
+    category: 'Mobile',
+    skills: ['Flutter', 'React Native', 'Mobile Development'],
+  },
+  {
+    category: 'Desktop',
+    skills: ['Windows Desktop Apps', 'Medical Software', 'Standalone Applications'],
   },
   {
     category: 'Project Management',
-    skills: ['Project Coordination', 'Task Management', 'Agile Basics', 'Jira', 'Client Communication'],
-  },
-  {
-    category: 'Soft Skills',
-    skills: ['Communication', 'Team Coordination', 'Problem Solving', 'Time Management', 'Stakeholder Management'],
+    skills: ['Project Coordination', 'Client Communication', 'Task Management', 'Team Leadership'],
   },
 ]
 

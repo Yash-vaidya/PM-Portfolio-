@@ -5,9 +5,9 @@ const experiences = [
   {
     role: 'Project Coordinator',
     company: 'Current Company',
-    period: 'Dec 2024 - Present',
-    description: 'Started as MERN Stack Developer, transitioned to Project Coordinator due to excellent communication skills. Managing multiple projects while coordinating between teams and clients.',
-    highlights: ['Managing 5+ web applications', '3 medical desktop software', '22+ projects coordinated', 'Client communication', 'Progress tracking & reporting'],
+    period: 'Jan 2025 - Present',
+    description: 'Started as MERN Stack Developer, transitioned to Project Coordinator due to excellent communication skills. Managing multiple projects including CRM software, location tracking systems, medical desktop applications, and AI platforms.',
+    highlights: ['Managing 20+ projects', 'CRM & Location Tracking', 'Medical Desktop Software', 'AI Platform Development', 'Client communication', 'Team coordination'],
   },
 ]
 
