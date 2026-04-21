@@ -18,8 +18,7 @@
 }
 
 [data-theme="light"] .navbar.transparent .nav-logo,
-[data-theme="light"] .navbar.transparent .nav-links a,
-[data-theme="light"] .navbar.transparent .nav-cta {
+[data-theme="light"] .navbar.transparent .nav-links a {
   color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000000,
@@ -29,8 +28,8 @@
 }
 
 [data-theme="light"] .navbar.transparent .nav-cta {
-  background: #ffffff;
-  color: #000000;
+  background: blue;
+  color: #ffffff;
   text-shadow: none;
   border: 2px solid #000000;
 }
@@ -100,14 +99,14 @@
 
 [data-theme="light"] .nav-links a:hover,
 [data-theme="light"] .nav-links a.active {
-  color: #22d3ee;
-  text-shadow: 0 0 15px #22d3ee;
+  color: #fbbf24;
+  text-shadow: 0 0 15px #fbbf24;
 }
 
 .nav-cta {
   padding: 10px 20px;
-  background: var(--color-accent);
-  color: #000;
+  background: blue;
+  color: #ffffff;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 600;
@@ -118,6 +117,12 @@
 .nav-cta:hover {
   opacity: 0.85;
   transform: translateY(-2px);
+}
+
+[data-theme="light"] .nav-cta:hover {
+  background: #fbbf24;
+  color: #000000;
+  box-shadow: 0 5px 15px rgba(251, 191, 36, 0.4);
 }
 
 .nav-actions {
@@ -142,6 +147,11 @@
 .theme-toggle:hover {
   border-color: var(--color-accent);
   transform: translateY(-2px);
+}
+
+[data-theme="light"] .theme-toggle:hover {
+  border-color: #fbbf24;
+  box-shadow: 0 5px 15px rgba(251, 191, 36, 0.3);
 }
 
 .theme-icon {

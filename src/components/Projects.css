@@ -116,9 +116,10 @@
 }
 
 @media (max-width: 768px) {
-  .projects {
-    padding: 60px 20px;
-  }
+.projects {
+  padding: 80px 24px;
+  text-align: right;
+}
 
   .projects-grid {
     grid-template-columns: 1fr;

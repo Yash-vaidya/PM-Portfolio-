@@ -42,13 +42,14 @@
   font-size: 16px;
   color: var(--color-accent);
   margin-bottom: 16px;
-  text-align: center;
+  text-align: right;
 }
 
 @media (max-width: 640px) {
-  .skills {
-    padding: 60px 20px;
-  }
+.skills {
+  padding: 80px 24px;
+  text-align: right;
+}
 }
 
 [data-theme="light"] .skill-tag {
@@ -58,9 +59,10 @@
 }
 
 [data-theme="light"] .skill-tag:hover {
-  background: #000000;
-  color: #ffffff;
-  border-color: #000000;
+  background: #fbbf24;
+  color: #000000;
+  border-color: #fbbf24;
+  box-shadow: 0 5px 15px rgba(251, 191, 36, 0.4);
 }
 
 [data-theme="light"] .skills-category h3 {

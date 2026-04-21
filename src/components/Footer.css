@@ -30,3 +30,7 @@ footer {
 .footer-links a:hover {
   color: var(--color-accent);
 }
+
+[data-theme="light"] .footer-links a:hover {
+  color: #fbbf24;
+}

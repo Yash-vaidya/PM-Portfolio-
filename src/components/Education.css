@@ -75,9 +75,10 @@
 }
 
 @media (max-width: 640px) {
-  .education {
-    padding: 60px 20px;
-  }
+.education {
+  padding: 80px 24px;
+  text-align: right;
+}
 }
 
 [data-theme="light"] .education-card {

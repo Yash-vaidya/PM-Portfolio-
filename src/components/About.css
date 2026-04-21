@@ -1,7 +1,6 @@
 .about {
-  padding: 100px 24px;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 80px 24px;
+  text-align: right;
 }
 
 .about-content {
@@ -54,6 +53,11 @@
   border-color: var(--color-accent);
   transform: translateY(-4px);
   box-shadow: 0 10px 40px rgba(34, 211, 238, 0.3);
+}
+
+[data-theme="light"] .about-card:hover {
+  border-color: #fbbf24;
+  box-shadow: 0 10px 40px rgba(251, 191, 36, 0.4);
 }
 
 .about-card-icon {

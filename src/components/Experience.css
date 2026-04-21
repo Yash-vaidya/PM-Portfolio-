@@ -82,9 +82,10 @@
 }
 
 @media (max-width: 640px) {
-  .experience {
-    padding: 60px 20px;
-  }
+.experience {
+  padding: 80px 24px;
+  text-align: right;
+}
 }
 
 [data-theme="light"] .experience-card {
