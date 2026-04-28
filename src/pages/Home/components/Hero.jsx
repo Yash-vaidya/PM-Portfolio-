@@ -73,7 +73,7 @@ function Hero() {
         <p className="greeting">Hello, I'm</p>
         <h1>
           <span className="name-wrapper">
-            <span className="name-text">{displayedName}{showCursor && !typingComplete && <span className="cursor">|</span>}{typingComplete && <span className="smile-emoji">😊</span>}</span>
+            <span className="name-text">{displayedName}{showCursor && !typingComplete && <span className="cursor">|</span>}{typingComplete && <span className="smile-emoji"></span>}</span>
           </span>
           <span className="hero-title-highlight">Project Coordinator</span>
         </h1>

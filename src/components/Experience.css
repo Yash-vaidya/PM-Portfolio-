@@ -20,6 +20,7 @@
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 28px;
+  text-align: center;
   transition: all 0.3s ease;
 }
 
@@ -31,7 +32,7 @@
 
 .exp-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   margin-bottom: 16px;
   flex-wrap: wrap;
@@ -79,34 +80,30 @@
   border-radius: 20px;
   font-size: 13px;
   color: var(--color-text);
+  text-align: center;
 }
 
 @media (max-width: 640px) {
 .experience {
   padding: 80px 24px;
-  text-align: right;
+  text-align: center;
 }
 }
 
 [data-theme="light"] .experience-card {
   background: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid #f97316;
 }
 
 [data-theme="light"] .experience-card:hover {
-  border-color: #fbbf24;
-  box-shadow: 0 10px 40px rgba(251, 191, 36, 0.4);
+  border-color: #f97316;
+  box-shadow: 0 10px 40px rgba(249, 115, 22, 0.4);
   transform: translateY(-4px);
 }
 
 [data-theme="light"] .exp-role,
 [data-theme="light"] .exp-company,
-[data-theme="light"] .exp-desc {
-  color: #000000;
-}
-
+[data-theme="light"] .exp-desc,
 [data-theme="light"] .exp-highlights li {
-  background: #ffffff;
-  border: 1px solid #000000;
-  color: #000000;
+  color: #f97316;
 }

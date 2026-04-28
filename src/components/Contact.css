@@ -7,7 +7,7 @@
 }
 
 .contact-content {
-  text-align: right;
+  text-align: center;
 }
 
 .contact h2 {
@@ -53,9 +53,9 @@
 }
 
 [data-theme="light"] .email-link:hover {
-  background: #fbbf24;
-  color: #000000;
-  box-shadow: 0 10px 30px rgba(251, 191, 36, 0.4);
+  background: #1e3a8a;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(30, 58, 138, 0.4);
 }
 
 .social-links {
@@ -88,41 +88,49 @@
 }
 
 [data-theme="light"] .social-link:hover {
-  border-color: #fbbf24;
-  color: #fbbf24;
+  border-color: #f97316;
+  color: #f97316;
   transform: translateY(-2px);
-  box-shadow: 0 5px 20px rgba(251, 191, 36, 0.4);
+  box-shadow: 0 5px 20px rgba(249, 115, 22, 0.4);
 }
 
 [data-theme="light"] .contact h2 {
-  color: #000000;
-  text-shadow: 
-    -1px -1px 0 rgba(0, 0, 0, 0.1),
-    1px -1px 0 rgba(0, 0, 0, 0.1),
-    -1px 1px 0 rgba(0, 0, 0, 0.1),
-    1px 1px 0 rgba(0, 0, 0, 0.1);
+  color: #f97316;
+  text-shadow: none;
 }
 
 [data-theme="light"] .contact-desc {
-  color: #000000;
+  color: #f97316;
 }
 
 [data-theme="light"] .email-link {
-  background: #000000;
+  background: #f97316;
   color: #ffffff;
-  border: 2px solid #000000;
+  border: 2px solid #f97316;
+}
+
+[data-theme="light"] .email-link:hover {
+  background: #f97316;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
 }
 
 [data-theme="light"] .social-link {
   background: #ffffff;
-  border: 2px solid #000000;
-  color: #000000;
+  border: 2px solid #f97316;
+  color: #f97316;
+}
+
+[data-theme="light"] .social-link:hover {
+  border-color: #f97316;
+  color: #f97316;
+  box-shadow: 0 5px 20px rgba(249, 115, 22, 0.3);
 }
 
 @media (max-width: 640px) {
 .contact {
   padding: 80px 24px;
-  text-align: right;
+  text-align: center;
 }
 
   .contact-cta {

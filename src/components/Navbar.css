@@ -21,17 +21,16 @@
 [data-theme="light"] .navbar.transparent .nav-links a {
   color: #ffffff;
   text-shadow: 
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000;
+    -1px -1px 0 rgba(249, 115, 22, 0.8),
+    1px -1px 0 rgba(249, 115, 22, 0.8),
+    -1px 1px 0 rgba(249, 115, 22, 0.8),
+    1px 1px 0 rgba(249, 115, 22, 0.8);
 }
 
 [data-theme="light"] .navbar.transparent .nav-cta {
-  background: blue;
+  background: #f97316;
   color: #ffffff;
-  text-shadow: none;
-  border: 2px solid #000000;
+  border: 2px solid #f97316;
 }
 
 .navbar.solid {
@@ -43,12 +42,12 @@
 
 [data-theme="light"] .navbar.solid {
   background: #ffffff;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #f97316;
 }
 
 [data-theme="light"] .navbar.solid .nav-logo,
 [data-theme="light"] .navbar.solid .nav-links a {
-  color: #000000;
+  color: #f97316;
   text-shadow: none;
 }
 
@@ -99,14 +98,18 @@
 
 [data-theme="light"] .nav-links a:hover,
 [data-theme="light"] .nav-links a.active {
-  color: #fbbf24;
-  text-shadow: 0 0 15px #fbbf24;
+  color: #f97316;
+  text-shadow: 0 0 15px #f97316;
+}
+
+[data-theme="light"] .nav-links a::after {
+  background: #f97316;
 }
 
 .nav-cta {
   padding: 10px 20px;
-  background: blue;
-  color: #ffffff;
+  background: var(--color-accent);
+  color: #000;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 600;
@@ -120,9 +123,9 @@
 }
 
 [data-theme="light"] .nav-cta:hover {
-  background: #fbbf24;
-  color: #000000;
-  box-shadow: 0 5px 15px rgba(251, 191, 36, 0.4);
+  background: #f97316;
+  color: #ffffff;
+  box-shadow: 0 5px 15px rgba(249, 115, 22, 0.4);
 }
 
 .nav-actions {
@@ -150,8 +153,8 @@
 }
 
 [data-theme="light"] .theme-toggle:hover {
-  border-color: #fbbf24;
-  box-shadow: 0 5px 15px rgba(251, 191, 36, 0.3);
+  border-color: #f97316;
+  box-shadow: 0 5px 15px rgba(249, 115, 22, 0.3);
 }
 
 .theme-icon {

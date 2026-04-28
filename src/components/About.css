@@ -1,6 +1,6 @@
 .about {
   padding: 80px 24px;
-  text-align: right;
+  text-align: center;
 }
 
 .about-content {
@@ -33,6 +33,79 @@
   line-height: 1.8;
 }
 
+.value-proposition {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.value-proposition h3 {
+  font-size: 24px;
+  color: var(--color-text-bright);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.value-proposition ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.value-proposition li {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 14px;
+  color: var(--color-text);
+  line-height: 1.5;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.value-proposition li:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(34, 211, 238, 0.2);
+}
+
+[data-theme="light"] .value-proposition li {
+  background: #ffffff;
+  border: 1px solid #f97316;
+  color: #f97316;
+}
+
+[data-theme="light"] .value-proposition li:hover {
+  border-color: #f97316;
+  box-shadow: 0 5px 20px rgba(249, 115, 22, 0.3);
+}
+
+[data-theme="light"] .about-card {
+  background: #ffffff;
+  border: 1px solid #f97316;
+}
+
+[data-theme="light"] .about-card:hover {
+  border-color: #f97316;
+  box-shadow: 0 10px 40px rgba(249, 115, 22, 0.4);
+}
+
+[data-theme="light"] .about-card h3,
+[data-theme="light"] .about-card p,
+[data-theme="light"] .value-proposition li {
+  color: #f97316;
+}
+
+[data-theme="light"] .value-proposition li:hover {
+  border-color: #f97316;
+  box-shadow: 0 5px 20px rgba(249, 115, 22, 0.3);
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -56,8 +129,13 @@
 }
 
 [data-theme="light"] .about-card:hover {
-  border-color: #fbbf24;
-  box-shadow: 0 10px 40px rgba(251, 191, 36, 0.4);
+  border-color: #f97316;
+  box-shadow: 0 10px 40px rgba(249, 115, 22, 0.4);
+}
+
+[data-theme="light"] .value-proposition li:hover {
+  border-color: #f97316;
+  box-shadow: 0 5px 20px rgba(249, 115, 22, 0.3);
 }
 
 .about-card-icon {
@@ -80,14 +158,20 @@
   .about-grid {
     grid-template-columns: 1fr;
   }
+
+  .value-proposition ul {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
 }
 
 [data-theme="light"] .about-card {
   background: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid #f97316;
 }
 
 [data-theme="light"] .about-card h3,
-[data-theme="light"] .about-card p {
-  color: #000000;
+[data-theme="light"] .about-card p,
+[data-theme="light"] .value-proposition li {
+  color: #f97316;
 }

@@ -1,5 +1,6 @@
 :root {
   --color-bg: #0a0a0a;
+  --color-bg-image: url('./assets/dark mode.jpg');
   --color-surface: #141414;
   --color-border: #262626;
   --color-text: #a3a3a3;
@@ -10,16 +11,20 @@
 
 [data-theme="light"] {
   --color-bg: #f8f9fa;
+  --color-bg-image: url('./assets/light mode.png');
   --color-surface: #ffffff;
-  --color-border: #000000;
-  --color-text: #000000;
-  --color-text-bright: #000000;
-  --color-accent: #22d3ee;
+  --color-border: #f97316;
+  --color-text: #f97316;
+  --color-text-bright: #f97316;
+  --color-accent: #f97316;
 }
 
-[data-theme="light"] .section-label,
+[data-theme="light"] .section-label {
+  color: var(--color-accent);
+}
+
 [data-theme="light"] .section-title {
-  color: #000000;
+  color: var(--color-text-bright);
 }
 
 [data-theme="light"] .hero .section-label,
@@ -50,9 +55,14 @@ html {
 body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
+  background-image: var(--color-bg-image);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--color-text);
   line-height: 1.6;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, background-image 0.3s ease;
 }
 
 ::-webkit-scrollbar {

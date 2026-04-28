@@ -3,6 +3,7 @@
   max-width: 1000px;
   margin: 0 auto;
   min-height: 100vh;
+  text-align: center;
 }
 
 .projects-content {
@@ -24,6 +25,7 @@
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .project-card::before {
@@ -99,6 +101,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: center;
 }
 
 .stat {
@@ -109,6 +112,7 @@
   font-size: 12px;
   border: 1px solid rgba(34, 211, 238, 0.15);
   transition: all 0.2s ease;
+  text-align: center;
 }
 
 .project-card:hover .stat {
@@ -118,7 +122,7 @@
 @media (max-width: 768px) {
 .projects {
   padding: 80px 24px;
-  text-align: right;
+  text-align: center;
 }
 
   .projects-grid {
@@ -131,29 +135,20 @@
 [data-theme="light"] .project-type,
 [data-theme="light"] .project-card h3,
 [data-theme="light"] .stat {
-  color: #000000;
+  color: #f97316;
 }
 
-[data-theme="light"] .project-card h3 {
-  text-shadow: 
-    -1px -1px 0 rgba(0, 0, 0, 0.1),
-    1px -1px 0 rgba(0, 0, 0, 0.1),
-    -1px 1px 0 rgba(0, 0, 0, 0.1),
-    1px 1px 0 rgba(0, 0, 0, 0.1);
+[data-theme="light"] .project-desc {
+  color: #f97316;
 }
 
 [data-theme="light"] .project-card {
   background: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid #f97316;
 }
 
 [data-theme="light"] .project-card:hover {
-  border-color: #fbbf24;
-  box-shadow: 0 20px 50px rgba(251, 191, 36, 0.4);
+  border-color: #f97316;
+  box-shadow: 0 20px 50px rgba(249, 115, 22, 0.4);
   transform: translateY(-8px);
-}
-
-[data-theme="light"] .project-desc,
-[data-theme="light"] .project-category {
-  color: #1a1a1a;
 }
