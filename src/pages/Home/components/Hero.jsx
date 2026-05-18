@@ -75,7 +75,7 @@ function Hero() {
           <span className="name-wrapper">
             <span className="name-text">{displayedName}{showCursor && !typingComplete && <span className="cursor">|</span>}{typingComplete && <span className="smile-emoji"></span>}</span>
           </span>
-          <span className="hero-title-highlight">Project Coordinator</span>
+           <span className="hero-title-highlight" style={{ color: document.documentElement.getAttribute('data-theme') === 'light' ? 'rgba(249, 115, 22, 0.8)' : '#1e3a8a' }}>Project Coordinator</span>
         </h1>
         <p className="hero-subtitle">
           Aspiring Product Manager | MBA Student

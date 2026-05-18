@@ -30,7 +30,7 @@ function Navbar() {
   
   return (
     <nav className={`navbar ${showTransparent ? 'transparent' : 'solid'}`}>
-      <Link to="/" className="nav-logo">VV</Link>
+      <Link to="/" className="nav-logo">V_D_V</Link>
       <ul className="nav-links">
         <li><Link to="/" className={isActive('/') ? 'active' : ''}>Home</Link></li>
         <li><Link to="/projects" className={isActive('/projects') ? 'active' : ''}>Projects</Link></li>
