@@ -20,11 +20,7 @@
 [data-theme="light"] .navbar.transparent .nav-logo,
 [data-theme="light"] .navbar.transparent .nav-links a {
   color: #ffffff;
-  text-shadow: 
-    -1px -1px 0 rgba(249, 115, 22, 0.8),
-    1px -1px 0 rgba(249, 115, 22, 0.8),
-    -1px 1px 0 rgba(249, 115, 22, 0.8),
-    1px 1px 0 rgba(249, 115, 22, 0.8);
+  text-shadow: none;
 }
 
 [data-theme="light"] .navbar.transparent .nav-cta {
